@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        h1{
+            background-color: orange;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            padding: 10px;
+            width: 400px;
+            border-radius: 100px;
+            transition: 1s linear;
+        }
+
+        h1:hover{
+            background-color: rgb(87, 255, 36);
+            padding: 10px 450px;
+        }
+
+
+        .photo-frame{
+            height: 163px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            
+        }
+
+        .photo img{
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .photo-details{
+            position: absolute;
+            top: 0px;
+            color: white;
+            text-align: center;
+            display: none;
+            transition: .3s linear;
+            font-weight: bold;
+        }
+
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgba(255, 99, 71, 0.425);
+
+        }
+
+        .photo-details h3{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+    <h1>Photo Album with Tiger</h1>
+    <section>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+
+
+
+
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>TIGER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione blanditiis mollitia unde facilis incidunt voluptatibus, eius dolores repellat dolor ad harum sit.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+</html>
